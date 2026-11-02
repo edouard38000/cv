@@ -5,9 +5,9 @@ export const RESUME_DATA: ResumeData = {
   name: "Edouard Meyronin",
   location: "Antwerp, Belgium, CET",
   locationLink: "https://www.google.com/maps/place/Antwerp",
-  about: "Builder of AI agents, automations and data pipelines.",
+  about: "Founding GTM engineer. AI agents, automations and the web.",
   summary:
-    "I'm on the founding team at Vesara, where I build the team's AI agents and automations. I work with AI coding agents: I write the spec, split it into tickets, hand each ticket to an agent and review every pull request before it merges. Since June 2026 that has shipped our website (co-built) and funnel pages, a fleet of agents on our own server with weekly evals, a newsletter that writes itself, a local library of 1,000+ content ideas and an open-source HelloFresh. Before Vesara I led an AI lab that put voice-enabled 3D agents into a multiplayer VR world, and its token reached a $6.8M all-time high. On the side I run content for an influencer, bringing $150k ARR in brand deals and 7M+ monthly views, and I explain AI on socials. I studied finance at Grenoble École de Management.",
+    "Founding go-to-market engineer at Vesara, working across everything from the website and funnels to the team's AI agents and automations. Before that I led an AI lab that put voice-enabled 3D agents into a multiplayer VR world. On the side I run content for an influencer ($150k ARR in brand deals, 7M+ monthly views) and explain AI on socials.",
   avatar,
   siteUrl: "https://edouard38000.github.io/cv/",
   contact: {
@@ -35,11 +35,11 @@ export const RESUME_DATA: ResumeData = {
       company: "Vesara Inc",
       link: "https://vesara.ai",
       badges: ["AI agents", "Automation", "Web", "San Francisco Bay Area"],
-      title: "Founding Team (Advisor, Mar to Jun 2026)",
+      title: "Founding GTM Engineer",
       start: "Mar 2026",
       end: null,
       description:
-        "Vesara connects a company's data into one always-on layer and runs long-horizon agents that resurface the revenue it is losing.",
+        "Vesara connects a company's data into one always-on layer and runs long-horizon agents that resurface the revenue it is losing. I joined as an advisor in March 2026 and the founding team in June.",
       highlights: [
         "Co-built the vesara.ai website, frontend and backend (Next.js, Postgres, Resend), including the newsletter signup",
         "Build custom landing pages for our marketing funnels",
