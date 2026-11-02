@@ -7,7 +7,7 @@ export const RESUME_DATA: ResumeData = {
   locationLink: "https://www.google.com/maps/place/Antwerp",
   about: "Builder of AI agents, automations and data pipelines.",
   summary:
-    "Part of the founding team at Vesara, with a business degree in finance from Grenoble École de Management. I build with AI coding agents: I write the spec, split it into tickets, send each ticket to an agent and review every pull request before it merges. Since June 2026 that has produced our company website (co-built) and landing pages, a fleet of AI agents for the team, a daily newsletter that writes itself, a local-first library for content ideas and an open-source alternative to HelloFresh. I also post short videos explaining AI as Edouard the Ginger.",
+    "I'm on the founding team at Vesara, where I build the team's AI agents and automations. I work with AI coding agents: I write the spec, split it into tickets, hand each ticket to an agent and review every pull request before it merges. Since June 2026 that has shipped our website (co-built) and funnel pages, a fleet of agents on our own server with weekly evals, a newsletter that writes itself, a local library of 1,000+ content ideas and an open-source HelloFresh. Before Vesara I led an AI lab that put voice-enabled 3D agents into a multiplayer VR world, and its token reached a $6.8M all-time high. On the side I run content for an influencer, bringing $150k ARR in brand deals and 7M+ monthly views, and I explain AI on socials. I studied finance at Grenoble École de Management.",
   avatar,
   siteUrl: "https://edouard38000.github.io/cv/",
   contact: {
@@ -32,14 +32,14 @@ export const RESUME_DATA: ResumeData = {
   ],
   work: [
     {
-      company: "Vesara",
+      company: "Vesara Inc",
       link: "https://vesara.ai",
-      badges: ["AI agents", "Automation", "Web", "GTM"],
-      title: "Founding team",
-      start: "2026",
+      badges: ["AI agents", "Automation", "Web", "San Francisco Bay Area"],
+      title: "Founding Team (Advisor, Mar to Jun 2026)",
+      start: "Mar 2026",
       end: null,
       description:
-        "Vesara connects a company's data into one always-on layer and runs long-horizon agents that resurface the revenue it is losing. I co-built the website and build the funnels and the team's AI agents and automations.",
+        "Vesara connects a company's data into one always-on layer and runs long-horizon agents that resurface the revenue it is losing.",
       highlights: [
         "Co-built the vesara.ai website, frontend and backend (Next.js, Postgres, Resend), including the newsletter signup",
         "Build custom landing pages for our marketing funnels",
@@ -49,35 +49,57 @@ export const RESUME_DATA: ResumeData = {
       ],
     },
     {
-      company: "Paperclip AI",
-      badges: ["AI agents", "Web3", "Gaming"],
-      title: "Founder & CEO",
-      start: "2024",
-      end: "2025",
+      company: "Self-employed",
+      badges: ["Content", "Partnerships", "Belgium"],
+      title: "Head of Content & Partnerships",
+      start: "Jul 2025",
+      end: null,
       description:
-        "A no-code platform for AI agents in video games (smart NPCs), with its own token, $PAPERCLIPS.",
+        "Run content for a prominent influencer, from scripting to brand deals, and advise other influencers on the side.",
       highlights: [
-        "Peak market cap of $6.5M, 5,000 to 6,000 holders and $48M in total trading volume",
-        "Led tech, product, R&D, finance, marketing and partnerships, and spoke at conferences",
+        "$150k ARR from brand collaborations, 7M+ monthly views and several viral videos",
       ],
     },
     {
-      company: "Le Gala, Grenoble École de Management",
-      badges: ["Events", "Operations"],
-      title: "Head of Logistics",
+      company: "Future Tech Labs",
+      badges: ["AI agents", "Generative AI", "VR"],
+      title: "Head of AI Research & Operations",
+      start: "Jun 2024",
+      end: "Jun 2025",
+      description:
+        "Led a lab that deployed embodied 3D AI agents with text-to-speech into a Unity-based multiplayer VR world.",
+      highlights: [
+        "Created a no-code web launchpad where users build custom AI agents that are deployed into the 3D world",
+        "Launched our own token for blockchain payments on compute, token use and agent generation, reaching a $6.8M all-time high",
+        "Launched our social accounts: 500k+ impressions and 3,613 followers on X, 500+ members on Telegram and 300+ on Discord",
+      ],
+    },
+    {
+      company: "Le Gala",
+      badges: ["Events", "Grenoble, France"],
+      title: "Logistics",
       start: "2022",
       end: "2024",
       description:
-        "Ran logistics for the school's end-of-year gala: 4,500 guests on a €500,000 budget. Chose and negotiated with suppliers, planned schedules and managed staff.",
+        "Oversaw logistics for a gala of 4,500 guests: sourced vendors, negotiated contracts and managed the team that coordinated the work.",
     },
     {
-      company: "The Cut Media",
-      badges: ["Internship", "Poole, UK"],
-      title: "Business Advisor Intern",
+      company: "FONCIA",
+      badges: ["Internship", "Grenoble, France"],
+      title: "Property Management Assistant",
+      start: "Jun 2023",
+      end: "Aug 2023",
+      description:
+        "Handled a high volume of client calls and emails, processed rental applications and ran property viewings.",
+    },
+    {
+      company: "Future Tech Games",
+      badges: ["Internship", "Poole, UK", "Remote"],
+      title: "Business Consultant",
       start: "May 2022",
       end: "Aug 2022",
       description:
-        "Market research, competitor analysis and business-model work, including blockchain funding options for a VR co-op game with $1M+ in funding.",
+        "Market research, competitor analysis and business models, including blockchain options, for The Big Flip, a funded cooperative VR game.",
     },
   ],
   skills: [
