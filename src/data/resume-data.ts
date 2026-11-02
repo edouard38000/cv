@@ -120,13 +120,6 @@ export const RESUME_DATA: ResumeData = {
   ],
   projects: [
     {
-      title: "Vesara agent fleet",
-      date: "Jul 2026",
-      techStack: ["Hermes", "OpenAI", "MCP", "Docker"],
-      description:
-        "A fleet of Hermes agents for the Vesara team, which I set up on OpenAI models and equip with a shared library of ~190 skills and MCP connectors to our tools. They run on our own VPS: a control plane provisions, backs up and restores each agent, every merge deploys through GitHub Actions, and weekly evals decide promotion (90% to move up a risk tier). A dashboard checks the fleet every 15 minutes.",
-    },
-    {
       title: "Finance agent",
       date: "Jul 2026",
       techStack: ["Python", "PSD2", "Yuki", "WhatsApp"],
@@ -134,11 +127,18 @@ export const RESUME_DATA: ResumeData = {
         "A proactive agent that tracks what's owed and due. It reads Gmail, the accountant's Yuki ledger, notes, the calendar and a WhatsApp group, resurfaces missed invoices (four on its first pass), reconciles bills against the ledger and drafts chasers for anything 14+ days overdue. A live, read-only KBC bank feed over PSD2 posts every new transaction to it.",
     },
     {
-      title: "Vesara Daily",
-      date: "Sep 2026",
-      techStack: ["Python", "Neon pgvector", "Resend", "OpenAI"],
+      title: "Radars",
+      date: "Aug 2026",
+      techStack: ["Python", "Node", "Neon", "Jev"],
       description:
-        "A newsletter that writes itself. Agents collect trending repos, skills, fast-growing MCP servers, AI news, papers and funding rounds; pgvector search in Neon drops near-duplicates and one schema-checked model call writes each card. Grounding gates stop a bad issue before Resend sends it with an AI cover and an archive on vesara.ai. A Claude skill drafts the LinkedIn and Substack versions by driving the browser. 1,600+ tests; the engine also runs The Weekly Ledger, a revenue-leakage weekly in testing.",
+        "An apartment deal radar that pulls four Antwerp rental sources, two through reverse-engineered portal APIs, stores them in Neon and flags listings 10%+ under the 90-day median €/m², with a second opinion from the official Flemish rent estimator. An X radar groups AI posts into topics and has Jev answer five editorial questions on each, surfacing only the best.",
+    },
+    {
+      title: "Vesara agent fleet",
+      date: "Jul 2026",
+      techStack: ["Hermes", "OpenAI", "MCP", "Docker"],
+      description:
+        "A fleet of Hermes agents for the Vesara team, which I set up on OpenAI models and equip with a shared library of ~190 skills and MCP connectors to our tools. They run on our own VPS: a control plane provisions, backs up and restores each agent, every merge deploys through GitHub Actions, and weekly evals decide promotion (90% to move up a risk tier). A dashboard checks the fleet every 15 minutes.",
     },
     {
       title: "os-hellofresh",
@@ -148,11 +148,11 @@ export const RESUME_DATA: ResumeData = {
         "An open-source, self-hosted HelloFresh. It plans a week of recipes with vector search and Jev, TypeSafe's classification model, which judges diets, matches plain products and prices what the store can't. It fills a real grocery cart under a hard budget through Instacart's MCP or the Kroger API, at about half a meal kit's cost, and never checks out. A Belgian edition runs on Albert Heijn.",
     },
     {
-      title: "Radars",
-      date: "Aug 2026",
-      techStack: ["Python", "Node", "Neon", "Jev"],
+      title: "Vesara Daily",
+      date: "Sep 2026",
+      techStack: ["Python", "Neon pgvector", "Resend", "OpenAI"],
       description:
-        "An apartment deal radar that pulls four Antwerp rental sources, two through reverse-engineered portal APIs, stores them in Neon and flags listings 10%+ under the 90-day median €/m², with a second opinion from the official Flemish rent estimator. An X radar groups AI posts into topics and has Jev answer five editorial questions on each, surfacing only the best.",
+        "A newsletter that writes itself. Agents collect trending repos, skills, fast-growing MCP servers, AI news, papers and funding rounds; pgvector search in Neon drops near-duplicates and one schema-checked model call writes each card. Grounding gates stop a bad issue before Resend sends it with an AI cover and an archive on vesara.ai. A Claude skill drafts the LinkedIn and Substack versions by driving the browser. 1,600+ tests; the engine also runs The Weekly Ledger, a revenue-leakage weekly in testing.",
     },
     {
       title: "Content Room",
