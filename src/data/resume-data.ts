@@ -7,7 +7,7 @@ export const RESUME_DATA: ResumeData = {
   locationLink: "https://www.google.com/maps/place/Antwerp",
   about: "Founding GTM engineer. AI agents, automations and the web.",
   summary:
-    "Founding go-to-market engineer at Vesara, where I work across the website, the funnels and the team's AI agents and automations. I build production systems end to end: a newsletter that writes, checks and sends itself every day, a fleet of evaluated agents on our own server, and an open-source HelloFresh that fills a real grocery cart. Before that I led an AI lab that put voice-enabled 3D agents into a multiplayer VR world. On the side I run content for an influencer ($150k ARR in brand deals, 7M+ monthly views) and explain AI on socials.",
+    "Founding go-to-market engineer at Vesara, a funded AI startup, where I work across acquisition, sales, marketing, content and funnels, and build the internal software and automations behind them. I build production systems end to end. Before that I led an AI lab that put voice-enabled 3D agents into a multiplayer VR world. On the side I ran content for an influencer, and now I started explaining AI for work and daily life on socials.",
   avatar,
   siteUrl: "https://edouard38000.github.io/cv/",
   contact: {
