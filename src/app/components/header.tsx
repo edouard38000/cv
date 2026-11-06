@@ -10,6 +10,7 @@ import {
   type ContactLink,
   getContactLinks,
 } from "@/lib/resume";
+import { GitHubActivity } from "./github-activity";
 
 const ICON_MAP: Record<
   ContactIcon,
@@ -123,6 +124,8 @@ export function Header() {
 
         <PrintContact links={contactLinks} />
       </div>
+
+      <GitHubActivity />
 
       <Image
         className="size-28 shrink-0 rounded-xl bg-muted object-cover ring-1 ring-muted"
