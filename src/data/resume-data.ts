@@ -7,7 +7,7 @@ export const RESUME_DATA: ResumeData = {
   locationLink: "https://www.google.com/maps/place/Antwerp",
   about: "Founding GTM engineer. AI agents, automations and the web.",
   summary:
-    "Founding go-to-market engineer at Vesara, a funded AI startup, where I work across acquisition, sales, marketing, content and funnels, and build the internal software and automations behind them. I build production systems end to end. Before that I led an AI lab that put voice-enabled 3D agents into a multiplayer VR world. On the side I ran content for an influencer, and now I started explaining AI for work and daily life on socials.",
+    "Founding go-to-market engineer at Vesara, a funded AI startup, where I work across acquisition, sales, marketing, content and funnels, and build the internal software and automations behind them. I build production systems end to end. Before that I led an AI lab that put voice-enabled 3D agents into a multiplayer VR world. On the side I advise an influencer on content and brand deals, and I've started explaining AI for work and daily life on socials.",
   avatar,
   siteUrl: "https://edouard38000.github.io/cv/",
   contact: {
@@ -50,11 +50,11 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "Self-employed",
       badges: ["Content", "Partnerships", "Belgium"],
-      title: "Head of Content & Partnerships",
+      title: "Content & Partnerships Advisor",
       start: "Jul 2025",
       end: null,
       description:
-        "Run content for a prominent influencer, from scripting to brand deals, and advise other influencers on the side.",
+        "Head of Content & Partnerships for a prominent influencer from July 2025 to June 2026, from scripting to brand deals. Since then I advise them on content and partnerships, and other influencers on the side.",
       highlights: [
         "$150k ARR from brand collaborations, 7M+ monthly views and several viral videos",
       ],
